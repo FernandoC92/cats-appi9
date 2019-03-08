@@ -1,0 +1,209 @@
+/*GLOBAL*/
+
+.btn-app {
+    background-color: #E47227;
+    border-radius: 40px;
+    color: #fff;
+    font-size: .9rem;
+    height: 2.5rem;
+    width: 10rem;
+}
+
+.btn-app:hover {
+    cursor: pointer;
+}
+
+.color-of-text {
+    color:rgb(51, 51, 51);
+    font-size: .9rem;
+}
+
+.row-margin-top {
+    margin-top: 10rem;
+ }
+
+/*HEADER*/
+header {
+    background-image: url('../images/adoravel-animal-animal-de-estimacao-395075.jpg');
+    background-size: contain;
+    background-attachment:  fixed;
+    background-position-x: 80%;
+    height: 600px;
+}
+
+nav a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .nav {
+    height: 60px;
+}
+
+.header-text {
+    font-size: 2.5rem;
+    line-height: 40px;
+    margin-left: 10rem;
+}
+
+.paws {
+    margin-left: 600px;
+}
+
+@media (max-width: 1015px) {
+    header {
+        background-repeat: no-repeat;
+        background-image: none;
+        background-color: #040A0E;
+        font-size: 1.2rem;
+
+    }
+    .slogan{
+        width: 100%; 
+        justify-content: center;
+    }
+    .nav-menu{align-items: center; display: flex;width: 100%; flex-direction: column; font-weight: bold; justify-content: center; margin-top: 1rem;}
+    .nav-menu a {
+        border: 1.5px solid;
+        border-radius: 10px;
+        background-color: #E47227;
+        margin-right: 0 !important;
+        margin-top: .5rem;
+        padding: .2rem .5rem;
+    }
+    .header-text {
+        margin-top: 13rem;
+        margin-left: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+
+/*SECTION FORM*/
+
+.form-section {
+    background-color: #ECECEC;
+    height: 360px;
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+    
+}
+
+@media (max-width: 900px) {
+    .form-section {
+    margin-left: .5rem !important;
+}
+}
+
+/*CAT ARE THE BEST*/
+.header-section {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    padding: 0;
+}
+
+@media (max-width: 1000px) {
+    .img-the-best {
+        width: 400px;
+    }
+}
+
+/*ALL YOU NEED IS CAT*/
+
+.text-config-need-cat {
+    display: flex;
+    font-size: .8rem;
+    flex-direction: column;
+    line-height: 18px;
+}
+
+@media (max-width:900px) {
+    .text-config-need-cat {
+        margin: 1rem 0 0 0 !important;
+        text-align: center;
+        width: 100%;
+        text-align: center;
+    }
+} 
+
+/* <!--HERO--> */
+
+.hero {
+    background-image: url('../images/animais-de-estimacao-animais-domesticos-animais-fofinhos-1084425.jpg');
+    background-size: contain;
+    background-attachment:  fixed;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 220px; 
+    height: 350px;
+    min-width: 320px;
+    min-height: 480px;
+}
+
+.text-hero {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    margin-left: 10%;
+    line-height: 40px;
+    padding-top: 6rem;
+    width: 30rem;
+}
+
+.btn-hero {
+    font-size: .9rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    width: 10rem;
+}
+.btn-hero:hover {
+    cursor: pointer;
+}
+@media (max-width:900px) {
+    .hero {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .text-hero {
+       text-align: center;
+       margin-left: 0;
+       font-size: 1.5rem;
+    }
+    .btn-hero {
+        margin-left: 0;
+    }
+    
+}
+
+/*CATS ARE NOT LAZY*/
+
+
+/*FOOTER*/
+footer {
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 250px;
+}
+
+footer a{
+    font-size: .8rem;
+    margin-top: 1rem;
+}
+
+footer nav button {
+    margin-top: 1rem;
+}
+
+@media (max-width:920px) {
+    footer {
+        height: 550px;
+    }
+   .map {
+     display: flex;
+     justify-content: center;  
+     margin-left: 1.2rem !important;
+   }
+    
+}
